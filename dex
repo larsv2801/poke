@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#bulbasaur {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius:25px;
+  background-color:#83EEC5;
+  border-style: solid;
+  border-color:#399494;
+}
+#ivysaur {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius:25px;
+  background-color:#5ACDBD;
+  border-style: solid;
+  border-color:#209483;
+}
+#venusaur {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius:25px;
+  background-color:#20B49C;
+  border-style: solid;
+  border-color:#FF7B73;
+}
+#charmander {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius:25px;
+  background-color:#FF9441;
+  border-style: solid;
+  border-color:#DE5239;
+}
+#charmeleon {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius:25px;
+  background-color:#FF524A;
+  border-style: solid;
+  border-color:#CD3939;
+}
+#charizard {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius:25px;
+  background-color:#EE8329;
+  border-style: solid;
+  border-color:#CD5241;
+}
+#squirtle {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius:25px;
+  background-color:#8BC5CD;
+  border-style: solid;
+  border-color:#5A9CA4;
+}
 
+
+.container {
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="block" id="bulbasaur">
+    <h3>bulbasaur</h3>
+    <img src="https://img.pokemondb.net/sprites/black-white/normal/bulbasaur.png">
+    <pre>grass & poison</pre>
+  </div>
+  <div class="block" id="ivysaur">
+    <h3>ivysaur</h3>
+    <img src="https://img.pokemondb.net/sprites/black-white/normal/ivysaur.png">
+    <pre>grass & poison</pre>
+  </div>
+    <div class="block" id="venusaur">
+    <h3>ivysaur</h3>
+    <img src="https://img.pokemondb.net/sprites/black-white/normal/venusaur-f.png">
+    <pre>grass & poison</pre>
+  </div>
+  <br>
+  <br>
+  <div class="block" id="charmander">
+    <h3>charmander</h3>
+    <img src="https://img.pokemondb.net/sprites/black-white/normal/charmander.png">
+    <pre>fire</pre>
+  </div>
+  <div class="block" id="charmeleon">
+    <h3>charmeleon</h3>
+    <img src="https://img.pokemondb.net/sprites/black-white/normal/charmeleon.png">
+    <pre>fire</pre>
+  </div>
+    <div class="block" id="charizard">
+    <h3>charizard</h3>
+    <img src="https://img.pokemondb.net/sprites/black-white/normal/charizard.png">
+    <pre>fire</pre>
+  </div>
+  <br>
+  <br>
+    <div class="block" id="squirtle">
+    <h3>squirtle</h3>
+    <img src="https://img.pokemondb.net/sprites/black-white/normal/squirtle.png">
+    <pre>water</pre>
+  </div>
+</div>
+</body>
+</html>
